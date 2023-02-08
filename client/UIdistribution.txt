@@ -1,0 +1,19 @@
+HOMEPAGE
+ERROR in src/components/ui/forms/LoginForm/LoginForm.tsx:3:31
+ERROR in src/components/ui/forms/RegisterForm/RegisterForm.tsx:4:31
+ERROR in src/components/ui/forms/SearchRoomsForm/SearchRoomsForm.tsx:3:31
+ERROR in src/components/ui/profile/UserProfile/UserProfile.tsx:4:29
+
+LISTOFROOMS
+ERROR in src/components/pages/RoomsPage/RoomsPage.tsx:3:57
+ERROR in src/components/ui/profile/AdminDashboard/RoomsListTable/RoomsListTable.tsx:4:40
+ERROR in src/components/ui/profile/AdminDashboard/RoomsListTable/RoomsListTable.tsx:71:37
+ERROR in src/components/ui/rooms/RoomsFilters/RoomsFilters.tsx:2:33
+
+ROOMDETAIL
+ERROR in src/components/ui/forms/BookingForm/BookingForm.tsx:5:41
+ERROR in src/components/ui/forms/ReviewsForm/ReviewsForm.tsx:4:31
+ERROR in src/components/ui/forms/RoomEditForm/RoomEditForm.tsx:3:31
+
+PROFILDETAIL
+ERROR in src/components/ui/forms/ProfileEditForm/ProfileEditForm.tsx:4:31
