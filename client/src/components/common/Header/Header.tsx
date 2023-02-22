@@ -29,11 +29,11 @@ const Header: React.FC = () => {
             <div className='header-buttons'>
               <NavLink to='/login/signIn' className='header-buttons-button'>
                 <Button size='small' variant='outlined'>
-                  Войти
+                login/signIn
                 </Button>
               </NavLink>
               <NavLink to='/login/signUp' className='header-buttons-button'>
-                <Button size='small'>Зарегистрироваться</Button>
+                <Button size='small'>login/signUp</Button>
               </NavLink>
             </div>
           )}

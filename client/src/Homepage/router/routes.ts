@@ -34,11 +34,11 @@ export const adminRoutes = [
 ];
 
 export const navigationRoutes = [
-  { path: '/rooms', name: 'Доступные номера' },
-  { path: '/services', name: 'Услуги' },
-  { path: '/vacancy', name: 'Вакансии' },
-  { path: '/news', name: 'Новости' },
-  { path: '/agreement', name: 'Соглашения' },
+  { path: '/rooms', name: 'Chambres' },
+  { path: '/services', name: 'Services' },
+  { path: '/vacancy', name: 'Disponibilité' },
+  { path: '/news', name: 'Actualité' },
+  { path: '/agreement', name: 'Nos valeurs' },
 ];
 
 export const publicRoutes = [

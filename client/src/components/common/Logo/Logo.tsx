@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { ReactComponent as ToxinLogo } from '../../../assets/svg/logo.svg';
+import { ReactComponent as ToxinLogo } from '../../../assets/svg/logo3.svg';
 
 type LogoProps = {
   className?: string;

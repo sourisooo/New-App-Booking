@@ -28,9 +28,9 @@ const GuestsCounter: React.FC<GuestsCounterProps> = ({ data, onChange }) => {
   return (
     <>
       <p className='guests-label'>{getGuestsLabel(adults, children, babies)}</p>
-      <Counter name='adults' label='Взрослые' min={1} max={10} onChange={onChange} value={+adults} />
-      <Counter name='children' label='Дети' min={0} max={10} onChange={onChange} value={children} />
-      <Counter name='babies' label='Младенцы' min={0} max={10} onChange={onChange} value={+babies} />
+      <Counter name='adults' label='Adulte' min={1} max={10} onChange={onChange} value={+adults} />
+      <Counter name='children' label='Enfant' min={0} max={10} onChange={onChange} value={children} />
+      <Counter name='babies' label='Bebe' min={0} max={10} onChange={onChange} value={+babies} />
     </>
   );
 };

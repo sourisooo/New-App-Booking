@@ -8,12 +8,12 @@ const HomePage: React.FC = () => {
     <main className='main-home__page'>
       <Container>
         <div className='main-home__wrapper'>
-          <h1 className='visually-hidden'>Поиск номеров в отеле toxin result school</h1>
+          <h1 className='visually-hidden'>TEST</h1>
           <Paper elevation={3} className='form-card searchRooms-form'>
-            <h2>Найдём номера под ваши пожелания</h2>
+            <h2>Votre prochaine expérience vous attends</h2>
             <SearchRoomsForm />
           </Paper>
-          <p className='main__text-wishes'>Лучшие номера для вашей работы, отдыха и просто вдохновения</p>
+          <p className='main__text-wishes'>Prenez un bol d'air</p>
         </div>
       </Container>
     </main>

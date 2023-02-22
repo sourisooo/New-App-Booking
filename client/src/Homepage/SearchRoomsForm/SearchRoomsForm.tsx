@@ -47,7 +47,7 @@ const SearchRoomsForm = () => {
         className='form-btn__reset'
         fullWidth
       >
-        Очистить
+        ANNULER
       </Button>
       <Button
         endIcon={<ArrowRight />}
@@ -57,7 +57,7 @@ const SearchRoomsForm = () => {
         disabled={Object.keys(errors).length > 0}
         fullWidth
       >
-        Подобрать номер
+        RESERVER
       </Button>
     </Form>
   );

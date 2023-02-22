@@ -18,7 +18,7 @@ const DateOfStay: React.FC<DateOfStayProps> = ({ onChange, data, errors }) => {
     <div className='dateOfStay-wrapper'>
       <div className='dateOfStay'>
         <DatePickerField
-          label='Дата прибытия'
+          label='DATE ARRIVEE'
           name='arrivalDate'
           minDate={+arrivalDate}
           onChange={onChange}
@@ -30,7 +30,7 @@ const DateOfStay: React.FC<DateOfStayProps> = ({ onChange, data, errors }) => {
       </div>
       <div className='dateOfStay'>
         <DatePickerField
-          label='Дата выезда'
+          label='DATE DEPART'
           name='departureDate'
           minDate={+arrivalDate + oneDayMs}
           onChange={onChange}

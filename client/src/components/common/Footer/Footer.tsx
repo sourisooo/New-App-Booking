@@ -26,7 +26,7 @@ const Footer = () => {
           <div className='footer-item footer-item--newsletter'>
             <form className='footer-newsletter'>
               <p className='footer-newsletter__title'>Подписка</p>
-              <span>Получайте специальные предложения и новости сервиса</span>
+              <p className='footer-newsletter__title'>Получайте специальные предложения и новости сервиса</p>
               <div className='footer-newsletter__input'>
                 <SubscribeInput size='small' placeholder='Email' name='email' type='email' />
               </div>
@@ -37,11 +37,11 @@ const Footer = () => {
       <Divider variant='fullWidth' className='footer-divider' />
       <Container>
         <div className='footer-bottom'>
-          <p className='footer-copyright'>Copyright © 2021 Toxin отель. Все права защищены.</p>
-          <Link underline='none' href='https://github.com/Solexofficial' rel='noopener noreferrer' target='_blank'>
+          <p className='footer-copyright'>Copyright © 2021 Sourisooo отель. Все права защищены.</p>
+          <Link underline='none' href='https://google.fr' rel='noopener noreferrer' target='_blank'>
             <div className='footer-social'>
               <GitHub />
-              <span className='footer-social__link'>Solexofficial</span>
+              <span className='footer-social__link'>Sourisooo</span>
             </div>
           </Link>
         </div>
